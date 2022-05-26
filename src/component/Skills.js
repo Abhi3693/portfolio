@@ -4,7 +4,7 @@ import { FaReact, FaCss3Alt, FaGitAlt } from 'react-icons/fa';
 import { GrNode } from 'react-icons/gr';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { DiJavascript1 } from 'react-icons/di';
-import { BsBootstrap } from 'react-icons/Bs';
+import { BsBootstrap } from 'react-icons/bs';
 import { SiRedux, SiMongodb, SiSass } from 'react-icons/si';
 
 function Skills() {

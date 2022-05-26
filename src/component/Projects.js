@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsCodeSlash } from 'react-icons/Bs';
+import { BsCodeSlash } from 'react-icons/bs';
 import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 
 import project1 from '../../public/icons/blog_app .png';

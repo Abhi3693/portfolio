@@ -1,23 +1,12 @@
 import React from 'react';
-import { jsPDF } from 'jspdf';
 
 import Project from './Projects';
 import Skills from './Skills';
 import Blog from './Blog';
 import Contact from './Contact';
-
 import hero from '../../public/images/coding 2.png';
-import project1 from '../../public/icons/blog_app .png';
-// import pdf from "../../public/images/Shishupal'sResume.pdf";
 
 function Main() {
-  // const pdfGenerate = () => {
-  //   var doc = new jsPDF('landscape', 'px', 'a4', 'false');
-  //   doc.addImage(project1, 'PNG', 65, 20, 500, 400);
-  //   // doc.addField(project1, 'PDF', 65, 20, 400, 400);
-  //   // doc.text(60, 60, pdf);
-  //   doc.save('cv.pdf');
-  // };
   return (
     <>
       <div className='container px-4'>

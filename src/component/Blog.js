@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsFillPencilFill, BsBook } from 'react-icons/Bs';
+import { BsFillPencilFill, BsBook } from 'react-icons/bs';
 
 function Blog() {
   return (
