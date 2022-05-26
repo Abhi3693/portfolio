@@ -1,0 +1,84 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+ul {
+  list-style: none;
+  gap: 2rem;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: rgb(14, 32, 54);
+}
+.btn-primary {
+  background-color: rgb(64, 151, 38);
+  border: none;
+}
+.icons {
+  background-color: rgb(14, 32, 54);
+}
+
+.card-holder {
+  margin-top: 7rem;
+  width: auto;
+}
+.project-info-holder {
+  display: none;
+  background-color: rgb(14, 32, 54);
+  gap: 0.72rem;
+  height: 100%;
+}
+.project-info {
+  background-color: rgb(14, 32, 54);
+  width: 100%;
+  gap: 0.72rem;
+  height: 100%;
+}
+
+.card {
+  border: 5px solid rgb(34, 53, 77);
+  background-color: rgb(14, 32, 54);
+  height: 300px;
+  margin-top: 2rem;
+}
+.card:hover .project-info-holder {
+  display: block;
+}
+.project-img {
+  height: 100%;
+  border-radius: 5px;
+}
+#blogs,
+#skills,
+#contact {
+  margin-top: 5rem;
+}
+.blog-card {
+  background-color: rgb(34, 53, 77);
+  padding: 2rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 2;
+  align-items: center;
+}
+.read-blog {
+  color: rgb(209, 211, 211);
+}
+.form-input {
+  width: 80%;
+  background-color: rgb(34, 53, 77);
+  border: 2px solid rgb(34, 53, 77);
+  color: lightblue;
+  border-radius: 5px;
+  &:focus {
+    outline: none;
+    border: 2px solid gray;
+  }
+}
+textarea {
+  height: 10rem;
+}
+.contact-list {
+  padding: 0;
+}
