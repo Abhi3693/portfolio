@@ -29,6 +29,7 @@ function Blog() {
             className='read-blog text-light fs-5'
             href='https://medium.com/@abhi.mane3693/react-icons-tutorial-727f92e6500e'
             target='_blank'
+            rel='noreferrer'
           >
             Read Blog
           </a>
@@ -47,6 +48,7 @@ function Blog() {
             className='read-blog text-light, fs-5'
             href='https://hashnode.com/post/introduction-to-unix-git-and-github-cks045v2308jiees17e9vdwxv'
             target='_blank'
+            rel='noreferrer'
           >
             Read Blog
           </a>

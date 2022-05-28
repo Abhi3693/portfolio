@@ -1,3 +1,5 @@
 # Portfolio
 
-It contain all information of my skills and project links which i have build using js, react, node.js
+In this project I have worked on a portfolio app for myself. It gives a short introduction of me as a webdeveloper. I have listed few(not All) projects and blog posts written by me.
+
+view :

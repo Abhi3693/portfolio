@@ -5,7 +5,7 @@ function Header() {
     <header>
       <nav className='navbar navbar-dark bg-dark navbar-expand-lg'>
         <div className='container container-fluid'>
-          <a className='navbar-brand' href='#'>
+          <a className='navbar-brand' href='#container'>
             Abhijeet Mane
           </a>
           <button

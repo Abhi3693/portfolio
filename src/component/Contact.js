@@ -76,7 +76,12 @@ function Contact() {
           <h4 className='fs-5 text-light my-3'>Internet Community</h4>
           <ul className='row contact-list'>
             <li className='col-lg-3 mt-4 col-md-6 col-sm-5 col-xs-6'>
-              <a href='https://github.com/Abhi3693' className='text-white-50'>
+              <a
+                href='https://github.com/Abhi3693'
+                className='text-white-50'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <AiFillGithub className='icons fs-4 fw-bold text-light mx-2' />
                 Github
               </a>
@@ -85,6 +90,8 @@ function Contact() {
               <a
                 href='https://www.linkedin.com/in/abhijeet-mane-00b79923b/'
                 className='text-white-50'
+                target='_blank'
+                rel='noreferrer'
               >
                 <AiFillLinkedin className='icons fs-4 fw-bold text-light mx-2' />
                 LinkedIn
@@ -94,6 +101,8 @@ function Contact() {
               <a
                 href='https://hashnode.com/@Abhimane'
                 className='text-white-50'
+                target='_blank'
+                rel='noreferrer'
               >
                 <GrSquare className='icons fs-4 fw-bold text-light mx-2' />
                 Hashnode
@@ -103,6 +112,8 @@ function Contact() {
               <a
                 href='https://medium.com/@abhi.mane3693'
                 className='text-white-50'
+                target='_blank'
+                rel='noreferrer'
               >
                 <AiFillMediumCircle className='icons fs-4 fw-bold text-light mx-2' />
                 Medium
@@ -112,6 +123,8 @@ function Contact() {
               <a
                 href='https://www.codewars.com/users/abhi3693'
                 className='text-white-50'
+                target='_blank'
+                rel='noreferrer'
               >
                 <SiCodewars className='icons fs-4 fw-bold text-light mx-2' />
                 CodeWars
@@ -121,6 +134,8 @@ function Contact() {
               <a
                 href='https://twitter.com/Abhijee96440429'
                 className='text-white-50'
+                target='_blank'
+                rel='noreferrer'
               >
                 <AiOutlineTwitter className='icons fs-4 fw-bold text-light mx-2' />
                 Twitter

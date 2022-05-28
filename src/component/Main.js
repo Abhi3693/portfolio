@@ -4,12 +4,11 @@ import Project from './Projects';
 import Skills from './Skills';
 import Blog from './Blog';
 import Contact from './Contact';
-import hero from '../../public/images/coding 2.png';
 
 function Main() {
   return (
     <>
-      <div className='container px-4'>
+      <div className='container px-4' id='container'>
         <div className='row'>
           <div className='col-lg mt-5 d-flex flex-coloumn align-items-center'>
             <div className='text-light'>
@@ -28,13 +27,15 @@ function Main() {
                 className='btn btn-primary'
                 href='https://drive.google.com/file/d/16GSkxECJJRED2Vwjksl3MN8EsfQ7y5bQ/view?usp=sharing'
                 download
+                target='_blank'
+                rel='noreferrer'
               >
                 Download CV
               </a>
             </div>
           </div>
           <div className='col-lg'>
-            <img className='img-fluid' src={hero} alt='' />
+            <img className='img-fluid' src='./images/coding2.png' alt='' />
           </div>
         </div>
       </div>
