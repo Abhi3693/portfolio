@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiOutlineCloudDownload } from 'react-icons/ai';
 
 import Project from './Projects';
 import Skills from './Skills';
@@ -25,12 +26,13 @@ function Main() {
               </p>
               <a
                 className='btn btn-primary'
-                href='https://drive.google.com/file/d/16GSkxECJJRED2Vwjksl3MN8EsfQ7y5bQ/view?usp=sharing'
+                href='https://drive.google.com/file/d/1pV_LBW9GGmdo6QoUkSKSEJafaVBvWpSF/view?usp=sharing'
                 download
                 target='_blank'
                 rel='noreferrer'
               >
-                Download CV
+                <AiOutlineCloudDownload className='download' />
+                Download My Resume
               </a>
             </div>
           </div>
